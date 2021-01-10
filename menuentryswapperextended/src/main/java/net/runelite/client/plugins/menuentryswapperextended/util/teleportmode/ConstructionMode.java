@@ -30,6 +30,9 @@ public enum ConstructionMode
 	TABLE("Tables",
 		newBaseComparableEntry("Remove", "table", -1, -1, true, false),
 		newBaseComparableEntry("Build", "Table space", -1, -1, true, true));
+	TRAILBLAZER_GLOBE("Trailblazer Globe",
+		newBaseComparableEntry("Remove", "Trailblazer globe", -1, -1, true, false),
+		newBaseComparableEntry("Build", "Statue Space", -1, -1, true, true));
 
 	private final String name;
 	private final BaseComparableEntry build;
